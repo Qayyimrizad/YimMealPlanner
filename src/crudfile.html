@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index2.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="logo">
+        <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fast-food-logo-design-template-ac68925ab7125714d35cd6371b24af59_screen.jpg?ts=1629468994">
+    </div>
+    
+      <h1>Eat healthy food!</h1>
+
+    <form action="register" method="post">
+        <div class="form">
+            <input id="fileName"type="text" required>
+            <label class="lbl-nombre">
+            <span class="text-nomb">file name</span>
+            </label>
+        </div>
+    </form>
+
+        <div class="form-group">
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+
+        </div>
+     
+      
+      <a><button id="btnCreate" class="cn">Create</button></a>
+      <a><button id="btnRead" class="cn">Read</button></a>
+      <a><button id="btnDelete" class="cn">Delete</button></a>
+      <a><button id="btnUpdate" class="cnt">Update</button></a>
+      <a href="index.html"><button class="cnt">Back</button></a>
+    
+
+    <script src="crudfile.js">
+      
+      
+    </script>
+  </body>
+</html>
